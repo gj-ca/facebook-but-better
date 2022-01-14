@@ -2,17 +2,22 @@ import {BrowserRouter, Link, Routes, Route} from 'react-router-dom'
 import { useState, useEffect } from 'react/cjs/react.development'
 import LoginPage from './pages/LoginPage'
 import HomePage from './pages/HomePage'
+import NewPostPage from './pages/NewPostPage'
 
 
 
 function App() {
   const [userLoggedIn, setUserLoggedIn] = useState(true)
   const [friends, setFriends] = useState([])
+  const [posts, setPosts] = useState([])
 
   useEffect(() => {
     fetch("http://localhost:5000/friends")
       .then(response => response.json())
       .then(data => setFriends(data))
+      fetch("http://localhost:5000/posts")
+      .then(response => response.json())
+      .then(data => setPosts(data))
   },[])
 
   const addToFriends = (friend) => {
@@ -27,7 +32,22 @@ function App() {
     })
       .then(response => response.json())
       .then(savedFriend => setFriends([...friends, savedFriend]))
-}
+  }
+
+  const addToPosts = (post) => {
+    fetch("http://localhost:5000/posts", {
+      method: "POST",
+      body: JSON.stringify(post),
+      headers: {
+        'Accept': 'application/json',
+        "Content-Type": "application/json"
+      }
+    })
+    .then(response => response.json())
+    .then(savedPost => setPosts([...posts, savedPost]) )
+  }
+
+
 
   return (
     <BrowserRouter>
@@ -63,7 +83,7 @@ function App() {
           path="new" 
           element={
             <PrivateRoute userLoggedIn={userLoggedIn}>
-              <h2>new</h2> 
+              <NewPostPage friends={friends} posts={posts} addToPosts={addToPosts}/> 
             </PrivateRoute>
           }/>
       </Route>

@@ -372,5 +372,36 @@
       "nat": "AU"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "body": "Glen is cool",
+      "author": "Abigail",
+      "id": 1
+    },
+    {
+      "body": "fgfg",
+      "author": "",
+      "id": 2
+    },
+    {
+      "body": "test",
+      "author": "Samuel",
+      "id": 3
+    },
+    {
+      "body": "sdfsd",
+      "author": "Arno",
+      "id": 4
+    },
+    {
+      "body": "sdfsd",
+      "author": "Emin",
+      "id": 5
+    },
+    {
+      "body": "dfgdf",
+      "author": "Julia",
+      "id": 6
+    }
+  ]
 }
