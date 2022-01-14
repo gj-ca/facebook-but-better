@@ -1,0 +1,376 @@
+{
+  "friends": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Julia",
+        "last": "Mantyla"
+      },
+      "location": {
+        "street": {
+          "number": 8677,
+          "name": "Esplanadi"
+        },
+        "city": "Hämeenlinna",
+        "state": "Finland Proper",
+        "country": "Finland",
+        "postcode": 19168,
+        "coordinates": {
+          "latitude": "-9.3762",
+          "longitude": "34.8593"
+        },
+        "timezone": {
+          "offset": "-4:00",
+          "description": "Atlantic Time (Canada), Caracas, La Paz"
+        }
+      },
+      "email": "julia.mantyla@example.com",
+      "login": {
+        "uuid": "69f4d121-1ab1-43ec-aff0-7c75f0ec2a90",
+        "username": "angryladybug799",
+        "password": "whatwhat",
+        "salt": "NUfo3Wj9",
+        "md5": "63f976d6d59b59e917ccdd9810b5c1e8",
+        "sha1": "ad3b5713e7fcc576b1598ed5036e9ee1cd20554d",
+        "sha256": "c1843ebfa1573c9b790e568d35e0ca7bb2a5a190f29bb9d3fac0d162a5332a1b"
+      },
+      "dob": {
+        "date": "1968-07-23T19:45:32.871Z",
+        "age": 54
+      },
+      "registered": {
+        "date": "2008-03-08T18:14:56.570Z",
+        "age": 14
+      },
+      "phone": "02-871-650",
+      "cell": "043-037-71-50",
+      "id": 1,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/93.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/93.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/93.jpg"
+      },
+      "nat": "FI"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Emin",
+        "last": "Nystrand"
+      },
+      "location": {
+        "street": {
+          "number": 3131,
+          "name": "Ole Reistads vei"
+        },
+        "city": "Hellvik",
+        "state": "Oslo",
+        "country": "Norway",
+        "postcode": "3120",
+        "coordinates": {
+          "latitude": "58.0452",
+          "longitude": "-37.7148"
+        },
+        "timezone": {
+          "offset": "-2:00",
+          "description": "Mid-Atlantic"
+        }
+      },
+      "email": "emin.nystrand@example.com",
+      "login": {
+        "uuid": "4965a49a-51a7-41c2-b27c-04941439e0fb",
+        "username": "lazypeacock117",
+        "password": "booboo",
+        "salt": "xfNEgWi8",
+        "md5": "71e3681b5e4f67dce7388bf4a06948b1",
+        "sha1": "412c4506220ad72e920e231063d881abe0ae2809",
+        "sha256": "9dd9431d2dc4f6e8f4562e935b2152e904f5757966e3dd6a98e79bafa2148c7c"
+      },
+      "dob": {
+        "date": "1958-05-30T00:17:17.100Z",
+        "age": 64
+      },
+      "registered": {
+        "date": "2012-02-15T10:27:06.330Z",
+        "age": 10
+      },
+      "phone": "22158097",
+      "cell": "94353558",
+      "id": 2,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/27.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/27.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/27.jpg"
+      },
+      "nat": "NO"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Monsieur",
+        "first": "Arno",
+        "last": "Bertrand"
+      },
+      "location": {
+        "street": {
+          "number": 1502,
+          "name": "Rue du Bon-Pasteur"
+        },
+        "city": "Seegräben",
+        "state": "St. Gallen",
+        "country": "Switzerland",
+        "postcode": 8478,
+        "coordinates": {
+          "latitude": "-53.5392",
+          "longitude": "-104.9341"
+        },
+        "timezone": {
+          "offset": "+11:00",
+          "description": "Magadan, Solomon Islands, New Caledonia"
+        }
+      },
+      "email": "arno.bertrand@example.com",
+      "login": {
+        "uuid": "10f2ccbb-6ca3-4794-9e39-fd78d95033e7",
+        "username": "bluemeercat985",
+        "password": "trojan",
+        "salt": "zYNoBLsv",
+        "md5": "76168a25138e45dbd274b54541a855e7",
+        "sha1": "a23dcc58c852b8e8e337ef74bf7cadc998955318",
+        "sha256": "0f87ba36b6b093218e5045453fea7e0f89e166996b3e4ee481fc4e3241a3c9d1"
+      },
+      "dob": {
+        "date": "1988-12-30T04:05:22.611Z",
+        "age": 34
+      },
+      "registered": {
+        "date": "2010-10-25T18:20:20.153Z",
+        "age": 12
+      },
+      "phone": "077 302 19 48",
+      "cell": "075 856 01 20",
+      "id": 3,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/56.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/56.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/56.jpg"
+      },
+      "nat": "CH"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Abigail",
+        "last": "Li"
+      },
+      "location": {
+        "street": {
+          "number": 1383,
+          "name": "Emerson Street"
+        },
+        "city": "Christchurch",
+        "state": "Bay of Plenty",
+        "country": "New Zealand",
+        "postcode": 58733,
+        "coordinates": {
+          "latitude": "62.9545",
+          "longitude": "49.0112"
+        },
+        "timezone": {
+          "offset": "-7:00",
+          "description": "Mountain Time (US & Canada)"
+        }
+      },
+      "email": "abigail.li@example.com",
+      "login": {
+        "uuid": "07832311-8adb-4642-9416-26c98c6323bb",
+        "username": "happycat470",
+        "password": "asses",
+        "salt": "N2Tyrkgq",
+        "md5": "39f0692d389684a1214ca19811b2a601",
+        "sha1": "ca7f7b42d0b51dd9b3975409c7a8f91e65244a5c",
+        "sha256": "0119df27f2be14ca5caff5d526c3a16155fab96330fc7aa20b3d50fa477f821c"
+      },
+      "dob": {
+        "date": "1987-01-24T04:11:37.258Z",
+        "age": 35
+      },
+      "registered": {
+        "date": "2013-02-02T06:09:47.493Z",
+        "age": 9
+      },
+      "phone": "(742)-117-7294",
+      "cell": "(863)-087-8996",
+      "id": 4,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/49.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/49.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/49.jpg"
+      },
+      "nat": "NZ"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Samuel",
+        "last": "Wilson"
+      },
+      "location": {
+        "street": {
+          "number": 8305,
+          "name": "Opoho Road"
+        },
+        "city": "Blenheim",
+        "state": "Southland",
+        "country": "New Zealand",
+        "postcode": 19196,
+        "coordinates": {
+          "latitude": "66.5564",
+          "longitude": "-147.8660"
+        },
+        "timezone": {
+          "offset": "-4:00",
+          "description": "Atlantic Time (Canada), Caracas, La Paz"
+        }
+      },
+      "email": "samuel.wilson@example.com",
+      "login": {
+        "uuid": "ee4d91a1-bd07-4493-b374-33f8d7ef098d",
+        "username": "heavyelephant320",
+        "password": "civicsi",
+        "salt": "U2cCtMoQ",
+        "md5": "ed85a8fe33ee6b03cbada2bf1320665d",
+        "sha1": "aeaf52f386f980cf9ba8429b6b5f3e5837b6c881",
+        "sha256": "dd3c0f388ff4dbd6a4a9b0e204fb389972a3024d23cadce8c8a5b2b7730a1242"
+      },
+      "dob": {
+        "date": "1955-03-07T06:56:27.937Z",
+        "age": 67
+      },
+      "registered": {
+        "date": "2019-09-22T00:10:00.943Z",
+        "age": 3
+      },
+      "phone": "(848)-905-5899",
+      "cell": "(738)-393-6627",
+      "id": 5,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/55.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/55.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/55.jpg"
+      },
+      "nat": "NZ"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Monsieur",
+        "first": "Hasan",
+        "last": "Dufour"
+      },
+      "location": {
+        "street": {
+          "number": 9972,
+          "name": "Rue Barrier"
+        },
+        "city": "Eschenbach (Sg)",
+        "state": "Vaud",
+        "country": "Switzerland",
+        "postcode": 2273,
+        "coordinates": {
+          "latitude": "-53.0526",
+          "longitude": "-18.3837"
+        },
+        "timezone": {
+          "offset": "-12:00",
+          "description": "Eniwetok, Kwajalein"
+        }
+      },
+      "email": "hasan.dufour@example.com",
+      "login": {
+        "uuid": "630f64e4-989c-42cd-a976-eb24237ef200",
+        "username": "heavygoose941",
+        "password": "misery",
+        "salt": "JFMUkWZl",
+        "md5": "f8c790474f49b99a54b164132fc58c22",
+        "sha1": "4c2716dfc04c1dd5ab4b58f620ebc9339b2662af",
+        "sha256": "40ee1aa038df4cce6da919a7388bdf16167c3d256e8e5783d9fc37fa0993ee80"
+      },
+      "dob": {
+        "date": "1982-10-08T09:37:52.891Z",
+        "age": 40
+      },
+      "registered": {
+        "date": "2005-05-30T15:10:24.906Z",
+        "age": 17
+      },
+      "phone": "076 489 10 05",
+      "cell": "075 541 39 47",
+      "id": 6,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/30.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/30.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/30.jpg"
+      },
+      "nat": "CH"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Albert",
+        "last": "James"
+      },
+      "location": {
+        "street": {
+          "number": 5092,
+          "name": "Woodland St"
+        },
+        "city": "Cairns",
+        "state": "Western Australia",
+        "country": "Australia",
+        "postcode": 729,
+        "coordinates": {
+          "latitude": "-80.8612",
+          "longitude": "-40.4063"
+        },
+        "timezone": {
+          "offset": "+6:00",
+          "description": "Almaty, Dhaka, Colombo"
+        }
+      },
+      "email": "albert.james@example.com",
+      "login": {
+        "uuid": "07c8f4e1-42a9-4dac-950d-46bcf6050069",
+        "username": "angrysnake346",
+        "password": "flower1",
+        "salt": "sjPM1OXg",
+        "md5": "75bed9b62d9c04d7cde44479009277a0",
+        "sha1": "f1be59b556587ec4610d2eb8ecd9d39d3978dfdf",
+        "sha256": "22de0c1515931a14b9a6a7ba3a8899047a819d982e517d98d38de6bef20447f6"
+      },
+      "dob": {
+        "date": "1967-02-23T12:10:49.940Z",
+        "age": 55
+      },
+      "registered": {
+        "date": "2014-08-05T21:02:49.465Z",
+        "age": 8
+      },
+      "phone": "09-4030-0459",
+      "cell": "0463-081-523",
+      "id": 7,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/78.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/78.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/78.jpg"
+      },
+      "nat": "AU"
+    }
+  ],
+  "posts": []
+}
